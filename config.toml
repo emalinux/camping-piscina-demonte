@@ -1,0 +1,56 @@
+baseURL = 'https://campingpiscinademonte.com/'
+languageCode = 'it'
+title = 'Camping Piscina Demonte'
+defaultContentLanguage = 'it'
+defaultContentLanguageInSubdir = false
+theme = "nome-del-tuo-tema" # <-- questo resta invariato
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Campeggio con piscina panoramica nel cuore delle Alpi, ideale per relax e natura."
+  images = ["images/loggone.png"]
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Chi siamo"
+    url = "/chi-siamo/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Servizi"
+    url = "/servizi/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Listino"
+    url = "/listino/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Regolamento"
+    url = "/regolamento/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Galleria"
+    url = "/galleria/"
+    weight = 6
+
+  [[menu.main]]
+    name = "Contatti"
+    url = "/contatti/"
+    weight = 7
+
+enableRobotsTXT = true    
+ 

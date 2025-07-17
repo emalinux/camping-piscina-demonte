@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'it'
+title = 'Camping Piscina'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

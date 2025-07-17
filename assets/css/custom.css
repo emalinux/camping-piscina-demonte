@@ -1,0 +1,248 @@
+.hero-image-container {
+    position: relative;
+    height: 75vh;
+    background-image: url("/images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  :root {
+    /* Colori principali */
+    --verde-logo: rgb(67, 73, 36);       /* verde muschio */
+    --verde-scuro: #3f4420;              /* variante leggermente più scura */
+    --grigio-chiaro: #f6f6f6;            /* sfondo neutro */
+    --grigio-medio: #e0e0e0;
+    --grigio-scuro: #333;
+    --bianco: #fff;
+    --nero: #000;
+  
+    /* Colori per testo/link */
+    --testo: var(--grigio-scuro);
+    --titoli: var(--verde-logo);
+    --link: var(--verde-logo);
+    --link-hover: var(--verde-scuro);
+  }
+  
+/* Testi e titoli */
+body {
+  color: var(--testo);
+}
+
+h1, h2, h3, h4 {
+  color: var(--titoli);
+}
+
+/* Link */
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+  /* Link & pulsanti */
+  a,
+  .link {
+    color: var(--verde-scuro);
+    transition: color 0.2s ease;
+  }
+  
+  a:hover,
+  .link:hover {
+    color: var(--verde-logo-hover);
+  }
+  
+  /* Titoli globali in verde muschio */
+h1, h2, h3, .green-title {
+  color: var(--verde-logo) !important;
+}
+
+/* Sfondi alternativi */
+.bg-verde {
+  background-color: var(--verde-logo);
+  color: var(--bianco);
+}
+
+.bg-grigio-chiaro {
+  background-color: var(--grigio-chiaro);
+}
+
+.bg-grigio-medio {
+  background-color: var(--grigio-medio);
+}
+
+/* Hover generico */
+.hover-fade {
+  transition: all 0.2s ease-in-out;
+}
+
+.hover-fade:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* --- EFFETTI HOVER IMMAGINI --- */
+
+/* Effetto Zoom su Hover */
+.img-hover-zoom {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.3s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Effetto Opacità + Zoom (gallery) */
+.img-hover-opacity img {
+  transition: all 0.3s ease-in-out;
+}
+
+.img-hover-opacity:hover img {
+  opacity: 0.8;
+  transform: scale(1.03);
+}
+
+/* Effetto "Lift" - sollevamento leggero */
+.img-hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Effetto Fade su Box/Card intero */
+.card-hover-fade {
+  transition: all 0.2s ease-in-out;
+}
+
+.card-hover-fade:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.hero-title-white {
+  color: white !important;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+  width: 100%;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px black;
+  color: white !important;
+  text-align: center;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+.nav-link-active {
+  font-weight: bold;
+  color: var(--verde-logo);
+  border-bottom: 2px solid var(--verde-logo);
+}
+
+.footer-link {
+  color: white !important;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--grigio-medio); /* o un giallo tenue se vuoi più visibilità */
+}
+
+.footer-logo {
+  background-color: white;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+nav a {
+  font-size: 1.125rem; /* 18px */
+}
+
+footer a {
+  font-size: 1rem; /* 16px */
+}
+
+/* Link visibili SEMPRE nel footer */
+footer a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--grigio-medio);
+  text-decoration: underline;
+}
+
+footer .underline-hover:hover {
+  text-decoration: underline;
+}
+
+/* Logo footer visibile su sfondo verde */
+footer img {
+  background-color: white;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #ffffff !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--grigio-medio);
+  text-decoration: underline;
+}

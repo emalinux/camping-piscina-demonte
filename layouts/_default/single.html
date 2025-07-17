@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!-- HERO IMMAGINE E TITOLO -->
+<section class="bg-white pv5 ph3 ph5-ns">
+  <div class="mw7 center tc">
+    {{ with .Params.image }}
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}"
+        class="br3 shadow-1 mb4"
+        style="max-height: 400px; width: 100%; object-fit: cover;" />
+    {{ end }}
+    <h1 class="f1 mb3 dark-blue">{{ .Title }}</h1>
+  </div>
+</section>
+
+<!-- CONTENUTO DELLA PAGINA -->
+<section class="bg-white ph4 ph5-ns pb4">
+  <div class="mw7 center lh-copy f5 gray">
+    {{ .Content }}
+  </div>
+</section>
+
+<!-- PULSANTE TORNA AI SERVIZI -->
+<section class="bg-white pb5 tc">
+  <a href="/servizi/"
+     class="f6 link dim br-pill ba bw1 ph4 pv2 mt3 dib dark-blue b">
+    ⬅ Torna ai servizi
+  </a>
+</section>
+
+{{ end }}

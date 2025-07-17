@@ -1,0 +1,13 @@
+{{ $folder := .Get 0 }}
+<div class="gallery flex flex-wrap justify-center">
+  {{ range (readDir (print "static/" $folder)) }}
+    {{ if in (lower .Name) ".jpg" }}
+      <div class="w-50 w-25-m pa2 img-hover-opacity glightbox-item-container">
+        <a href="/{{ $folder }}/{{ .Name }}" class="glightbox-item" data-glightbox="description:">
+          <img src="/{{ $folder }}/{{ .Name }}" alt="Foto campeggio" class="db w-100 br3 shadow-1"
+               style="height: 220px; object-fit: cover;">
+        </a>
+      </div>
+    {{ end }}
+  {{ end }}
+</div>

@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="bg-white pv5 ph4 ph5-ns">
+  <div class="mw8 center tc">
+    <h1 class="f2">Benvenuti al Camping Piscina Demonte</h1>
+    <p class="f4 gray">Natura, relax e libertà nel cuore delle Alpi</p>
+  </div>
+</section>
+
+<!-- GALLERIA -->
+<section class="bg-white pv5 ph4 ph5-ns">
+  <h2 class="f2 tc mb4">Galleria fotografica</h2>
+  <div class="flex flex-wrap justify-center">
+    {{ range (slice
+      "/images/gallery/img1.jpg"
+      "/images/gallery/img2.jpg"
+      "/images/gallery/img3.jpg"
+      "/images/gallery/img4.jpg"
+      "/images/gallery/img5.jpg"
+      "/images/gallery/img6.jpg"
+      "/images/gallery/img7.jpg"
+      "/images/gallery/img8.jpg"
+    ) }}
+      <div class="w-50 w-25-l pa2">
+        <img src="{{ . | relURL }}" alt="Foto campeggio" class="db w-100 br3 shadow-1" style="height: 180px; object-fit: cover;">
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
