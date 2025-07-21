@@ -4,9 +4,9 @@ title: "Contatti"
 
 Hai bisogno di informazioni? Vuoi prenotare o semplicemente salutarci?
 
-📍 **Indirizzo:** Via del Campeggio, 12 – 12014 Demonte (CN)  
-📧 **Email:** info@campingpiscinademonte.com  
-📞 **Telefono:** +39 0171 123456  
+📍 **Indirizzo:** Via Perdioni , 3 – 12014 Demonte (CN)  
+📧 **Email:** gisellabrogna@gmail.com  
+📞 **Telefono:** +39 338 246 4353 
 📷 Seguici anche su Instagram e Facebook!
 
 ---
