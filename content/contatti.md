@@ -15,20 +15,31 @@ Compila il form di contatto sul sito o passa direttamente in reception: saremo f
 
 ### 📬 Scrivici un messaggio
 
-<form name="contatti" method="POST" netlify netlify-honeypot="bot-field" action="/grazie/">
-  <input type="hidden" name="form-name" value="contatti">
-  <p class="hidden-honeypot">
-    <label>Non compilare questo campo: <input name="bot-field" /></label>
-  </p>
+<form action="https://formspree.io/f/myzpkqyn" method="POST">
+  <!-- Honeypot anti-spam invisibile -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <!-- Redirect dopo invio -->
+  <input type="hidden" name="_redirect" value="https://campingpiscinademonte.com/grazie/">
+
   <p>
-    <label>Nome<br><input type="text" name="nome" required></label>
+    <label for="nome">Nome:<br>
+      <input type="text" id="nome" name="nome" required>
+    </label>
   </p>
+
   <p>
-    <label>Email<br><input type="email" name="email" required></label>
+    <label for="email">Email:<br>
+      <input type="email" id="email" name="email" required>
+    </label>
   </p>
+
   <p>
-    <label>Messaggio<br><textarea name="messaggio" required></textarea></label>
+    <label for="messaggio">Messaggio:<br>
+      <textarea id="messaggio" name="messaggio" rows="4" required></textarea>
+    </label>
   </p>
+
   <p>
     <button type="submit">Invia</button>
   </p>
