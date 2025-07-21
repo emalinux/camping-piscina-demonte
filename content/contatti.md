@@ -17,7 +17,7 @@ Compila il form di contatto sul sito o passa direttamente in reception: saremo f
 
 <form name="contatti" method="POST" netlify netlify-honeypot="bot-field" action="/grazie/">
   <input type="hidden" name="form-name" value="contatti">
-  <p class="hidden">
+  <p class="display:none">
     <label>Non compilare questo campo: <input name="bot-field" /></label>
   </p>
   <p>
