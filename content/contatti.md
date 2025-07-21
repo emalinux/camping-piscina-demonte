@@ -15,15 +15,21 @@ Compila il form di contatto sul sito o passa direttamente in reception: saremo f
 
 ### 📬 Scrivici un messaggio
 
-<form method="POST" action="mailto:info@campingpiscinademonte.com" enctype="text/plain">
-  <label for="nome">Nome:</label><br>
-  <input type="text" id="nome" name="Nome" required><br><br>
-
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="Email" required><br><br>
-
-  <label for="messaggio">Messaggio:</label><br>
-  <textarea id="messaggio" name="Messaggio" rows="5" required></textarea><br><br>
-
-  <input type="submit" value="Invia" style="background-color: #0077cc; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px;">
+<form name="contatti" method="POST" netlify netlify-honeypot="bot-field" action="/grazie/">
+  <input type="hidden" name="form-name" value="contatti">
+  <p class="hidden">
+    <label>Non compilare questo campo: <input name="bot-field" /></label>
+  </p>
+  <p>
+    <label>Nome<br><input type="text" name="nome" required></label>
+  </p>
+  <p>
+    <label>Email<br><input type="email" name="email" required></label>
+  </p>
+  <p>
+    <label>Messaggio<br><textarea name="messaggio" required></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Invia</button>
+  </p>
 </form>
