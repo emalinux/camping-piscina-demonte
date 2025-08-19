@@ -15,7 +15,7 @@ Per garantire a tutti una permanenza serena, ti chiediamo di rispettare alcune s
 - È obbligatorio registrarsi all’arrivo.
 - Il campeggio è accessibile **dalle 8:00 alle 22:00**.
 - Il **silenzio notturno** va rispettato dalle **23:00 alle 7:00**.
-- I cani sono ammessi ma vanno **sempre tenuti al guinzaglio**.
+- Sono ammessi solo cani di piccola taglia e vanno **sempre tenuti al guinzaglio**.
 - È vietato accendere fuochi fuori dalle aree barbecue.
 
 ---
@@ -30,4 +30,4 @@ Per garantire a tutti una permanenza serena, ti chiediamo di rispettare alcune s
 
 ### 📞 In caso di emergenza
 
-- Contattare la reception o chiamare il **+39 0171 123456**
+- Contattare la reception o chiamare il **+39 338 246 4353**

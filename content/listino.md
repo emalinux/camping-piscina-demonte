@@ -6,10 +6,10 @@ description: "Consulta le tariffe aggiornate per soggiornare al Camping Piscina 
 ## Tariffe Piazzole (al giorno)
 
 - **Piazzola** (roulotte, camper, tenda): 10 €
-- **Adulto**: 8 €
-- **Bambini** (fino a 3 anni o ridotti): 6 €
-- **Cane**: 3 € al giorno
-- **Luce**: 3 € al giorno
+- **Adulto**: 10 €
+- **Bambini** (3-8 anni o ridotti): 5 €
+- **Cane**: 5 € al giorno
+- **Luce**: 4 € al giorno
 
 ## Tende (al giorno)
 
@@ -19,24 +19,29 @@ description: "Consulta le tariffe aggiornate per soggiornare al Camping Piscina 
 
 ## Area Camper
 
-- **Solo sosta** (carico/scarico acqua): 12 €
+- **Pagamento all'arrivo** 
+- **Solo sosta** (carico/scarico acqua): 12 € + elettricità: 15 €
 - **Area camper completa** (con tutti i servizi): Tariffa come da persona
 
 ## Chalet
 
-- **Chalet con bagno e doccia** (max 4 persone):
+- **Chalet con bagno e doccia** (4 posti letto):
   - 120 € al giorno (dal 15/6 al 15/9)
-  - 80 € al giorno (da maggio a metà giugno)
+  - 100 € al giorno (da maggio a metà giugno)
 - **Chalet con bagno ma senza doccia**: Prezzo non specificato
 - Dotazioni: cucina attrezzata, TV, biancheria, camera matrimoniale, letti a castello
-- **Solo camera con 2 letti** (senza biancheria): 40 €
+- **Solo camera con 2 letti** (senza biancheria): 60 €
+- **Check-in**: dalle ore 16
+- **Check-out**: entro le ore 11
 
 ## Servizi Aggiuntivi
 
 - **Auto**: 4 €
 - **Motocicletta**: 2,50 €
 - **Bicicletta**: 1 €
-- **Lavatrice e asciugatrice a gettone**: 1 €
+- **Lavatrice e asciugatrice a gettone**: 3,50 € minimo per 30 minuti
+- **Doccia calda**: 1 € a gettone
+- **Cani ammessi ma solo di piccola taglia**: tariffa giornaliera 5 €
 
 ## Prenotazioni
 
