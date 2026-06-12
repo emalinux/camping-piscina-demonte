@@ -1,21 +1,24 @@
-<header class="bg-white pv4 ph4 shadow-1">
-  <div class="mw8 center flex items-center justify-between">
+<header class="site-header">
+  <div class="site-header__inner">
 
-    <!-- Logo -->
-    <a href="{{ "/" | relLangURL }}" class="flex items-center link">
-      <img src="{{ "images/loggone.png" | relURL }}" alt="Logo Camping Piscina Demonte"
-           style="height: 150px; width: auto; padding: 5px; border-radius: 8px;" class="mr3">
+    <a href="{{ "/" | relLangURL }}" class="site-logo">
+      <img src="{{ "images/loggone.png" | relURL }}" alt="Logo Camping Piscina Demonte">
     </a>
 
-    <!-- Menu -->
-    <nav>
-      <ul class="list pa0 ma0 flex items-center">
-        <li class="mr4"><a href="{{ "/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Home</a></li>
-        <li class="mr4"><a href="{{ "/servizi/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Servizi</a></li>
-        <li class="mr4"><a href="{{ "/chi-siamo/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Chi siamo</a></li>
-        <li class="mr4"><a href="{{ "/listino/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Listino</a></li>
-        <li class="mr4"><a href="{{ "/regolamento/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Regolamento</a></li>
-        <li><a href="{{ "/contatti/" | relLangURL }}" class="dark-gray link dim f4 fw6 pv2">Contatti</a></li>
+    <button class="hamburger" aria-label="Apri menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="{{ "/" | relLangURL }}">Home</a></li>
+        <li><a href="{{ "/servizi/" | relLangURL }}">Servizi</a></li>
+        <li><a href="{{ "/chi-siamo/" | relLangURL }}">Chi siamo</a></li>
+        <li><a href="{{ "/listino/" | relLangURL }}">Listino</a></li>
+        <li><a href="{{ "/regolamento/" | relLangURL }}">Regolamento</a></li>
+        <li><a href="{{ "/contatti/" | relLangURL }}">Contatti</a></li>
       </ul>
     </nav>
 

@@ -26,5 +26,7 @@
       document.body.classList.add("loaded");
     });
   </script>
+  {{ $mainjs := resources.Get "js/main.js" | minify | fingerprint }}
+<script src="{{ $mainjs.RelPermalink }}" integrity="{{ $mainjs.Data.Integrity }}"></script>
 </body>
 </html>

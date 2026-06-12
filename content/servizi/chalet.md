@@ -26,4 +26,4 @@ Ogni chalet dispone di:
 💶 A partire da **€90 a notte** in bassa stagione. (da maggio a 14 giugno)
 
 {{< button-link href="/listino" text="Consulta il listino" >}}  
-{{< button-link href="/prenotazioni" text="Prenota ora il tuo soggiorno" >}}
+{{< button-link href="/contatti" text="Prenota ora il tuo soggiorno" >}}

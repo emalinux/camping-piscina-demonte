@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector(".hamburger"),t=document.querySelector(".main-nav");e&&t&&e.addEventListener("click",function(){t.classList.toggle("is-open");const n=t.classList.contains("is-open");e.setAttribute("aria-expanded",n?"true":"false")})})
