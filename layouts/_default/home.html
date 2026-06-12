@@ -19,8 +19,8 @@
     <h2 class="f2 tc mb4">I nostri servizi</h2>
     <div class="flex flex-wrap justify-center">
       {{ range first 8 (where .Site.RegularPages "Section" "servizi") }}
-        <div class="w-100 w-33-m w-25-l pa2">
-          <div class="ba b--moon-gray br3 pa3 h-100 shadow-1 card-hover-fade">
+        <div class="home-service-card-wrap pa2">
+          <div class="home-service-card ba b--moon-gray br3 pa3 h-100 shadow-1 card-hover-fade">
             {{ with .Params.image }}
               <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="db w-100 br2 mb3 img-hover-lift" style="height: 180px; object-fit: cover;">
             {{ end }}
